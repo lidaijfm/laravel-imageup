@@ -1,6 +1,6 @@
 <?php
 
-namespace QCod\ImageUp\Exceptions;
+namespace Lidai\ImageUp\Exceptions;
 
 class InvalidUploadFieldException extends \Exception
 {

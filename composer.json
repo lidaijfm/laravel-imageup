@@ -1,7 +1,7 @@
 {
-    "name": "qcod/laravel-imageup",
+    "name": "lidai/laravel-imageup",
     "description": "Auto Image upload, resize and crop for Laravel eloquent model using Intervention image",
-    "homepage": "https://github.com/qcod/laravel-imageup",
+    "homepage": "https://github.com/lidaijfm/laravel-imageup",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -15,8 +15,9 @@
     ],
     "authors": [
         {
-            "name": "Mohd Saqueib Ansari",
-            "email": "saquibweb@gmail.com"
+            "name": "Liam Aird",
+            "email": "lidai@jfmedier.dk",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -31,18 +32,18 @@
     },
     "autoload": {
         "psr-4": {
-            "QCod\\ImageUp\\": "src/"
+            "Lidai\\ImageUp\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "QCod\\ImageUp\\Tests\\": "tests/"
+            "Lidai\\ImageUp\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "QCod\\ImageUp\\ImageUpServiceProvider"
+                "Lidai\\ImageUp\\ImageUpServiceProvider"
             ]
         }
     },

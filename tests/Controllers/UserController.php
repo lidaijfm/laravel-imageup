@@ -1,10 +1,10 @@
 <?php
 
-namespace QCod\ImageUp\Tests\Controllers;
+namespace Lidai\ImageUp\Tests\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use QCod\ImageUp\Tests\Models\User;
+use Lidai\ImageUp\Tests\Models\User;
 
 class UserController extends Controller
 {

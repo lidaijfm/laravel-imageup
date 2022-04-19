@@ -1,6 +1,6 @@
 <?php
 
-namespace QCod\ImageUp;
+namespace Lidai\ImageUp;
 
 use Exception;
 use Illuminate\Contracts\Filesystem\Filesystem;
@@ -10,7 +10,7 @@ use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Intervention\Image\Facades\Image;
-use QCod\ImageUp\Exceptions\InvalidUploadFieldException;
+use Lidai\ImageUp\Exceptions\InvalidUploadFieldException;
 
 trait HasImageUploads
 {

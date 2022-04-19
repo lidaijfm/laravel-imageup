@@ -1,30 +1,30 @@
 ## Laravel ImageUp
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/qcod/laravel-imageup.svg)](https://packagist.org/packages/qcod/laravel-imageup)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/Lidai/laravel-imageup.svg)](https://packagist.org/packages/Lidai/laravel-imageup)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/qcod/laravel-imageup/master.svg)](https://travis-ci.org/qcod/laravel-imageup)
-[![Total Downloads](https://img.shields.io/packagist/dt/qcod/laravel-imageup.svg)](https://packagist.org/packages/qcod/laravel-imageup)
+[![Build Status](https://img.shields.io/travis/Lidai/laravel-imageup/master.svg)](https://travis-ci.org/Lidai/laravel-imageup)
+[![Total Downloads](https://img.shields.io/packagist/dt/Lidai/laravel-imageup.svg)](https://packagist.org/packages/Lidai/laravel-imageup)
 
-The `qcod/laravel-imageup` is a trait which gives you auto upload, resize and crop for image feature with tons of customization.
+The `Lidai/laravel-imageup` is a trait which gives you auto upload, resize and crop for image feature with tons of customization.
 
 ### Installation
 
 You can install the package via composer:
 
 ```bash
-$ composer require qcod/laravel-imageup
+$ composer require Lidai/laravel-imageup
 ```
 
 The package will automatically register itself. In case you need to manually register it you can by adding it in `config/app.php` providers array:
 
 ```php
-QCod\ImageUp\ImageUpServiceProvider::class
+Lidai\ImageUp\ImageUpServiceProvider::class
 ```
 
 You can optionally publish the config file with:
 
 ```bash
-php artisan vendor:publish --provider="QCod\ImageUp\ImageUpServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Lidai\ImageUp\ImageUpServiceProvider" --tag="config"
 ```
 
 It will create [`config/imageup.php`](#config-file) with all the settings.
@@ -38,7 +38,7 @@ To use this trait you just need to add `use HasImageUploads` on the Eloquent mod
 <?php
 namespace App;
 
-use QCod\ImageUp\HasImageUploads;
+use Lidai\ImageUp\HasImageUploads;
 use Illuminate\Database\Eloquent\Model;
 
 class User extends Model {
@@ -81,7 +81,7 @@ ImageUp gives you tons of customization on how the upload and resize will be han
 <?php
 namespace App;
 
-use QCod\ImageUp\HasImageUploads;
+use Lidai\ImageUp\HasImageUploads;
 use Illuminate\Database\Eloquent\Model;
 
 class User extends Model {
@@ -464,8 +464,8 @@ If you discover any security related issues, please email saquibweb@gmail.com in
 - [Melek Rebai aka shadoWalker89](https://github.com/shadoWalker89)
 - [João Roberto P. Borges](https://github.com/joaorobertopb)
 
-### About QCode.in
-QCode.in (https://www.qcode.in) is blog by [Saqueib](https://github.com/saqueib) which covers All about Full Stack Web Development.
+### About Lidaie.in
+Lidaie.in (https://www.Lidaie.in) is blog by [Saqueib](https://github.com/saqueib) which covers All about Full Stack Web Development.
 
 ### License
 

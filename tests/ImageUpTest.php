@@ -1,14 +1,14 @@
 <?php
 
-namespace QCod\ImageUp\Tests;
+namespace Lidai\ImageUp\Tests;
 
 use DMS\PHPUnitExtensions\ArraySubset\ArraySubsetAsserts;
 use Illuminate\Http\UploadedFile;
-use QCod\ImageUp\Tests\Models\User;
-use QCod\ImageUp\Tests\Models\ModelWithMutator;
+use Lidai\ImageUp\Tests\Models\User;
+use Lidai\ImageUp\Tests\Models\ModelWithMutator;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\ValidationException;
-use QCod\ImageUp\Exceptions\InvalidUploadFieldException;
+use Lidai\ImageUp\Exceptions\InvalidUploadFieldException;
 
 class ImageUpTest extends TestCase
 {
@@ -570,7 +570,7 @@ class ImageUpTest extends TestCase
             'avatar' => [
                 'width' => 100,
                 'height' => 100,
-                'before_save' => '\QCod\ImageUp\Tests\Hooks\ResizeToFiftyHook',
+                'before_save' => '\Lidai\ImageUp\Tests\Hooks\ResizeToFiftyHook',
             ]
         ]);
 
@@ -622,7 +622,7 @@ class ImageUpTest extends TestCase
     {
         $this->user = $this->createUser([], [
             'avatar' => [
-                'after_save' => '\QCod\ImageUp\Tests\Hooks\CopyImageHook',
+                'after_save' => '\Lidai\ImageUp\Tests\Hooks\CopyImageHook',
             ]
         ]);
 

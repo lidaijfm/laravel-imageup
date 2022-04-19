@@ -1,11 +1,11 @@
 <?php
 
-namespace QCod\ImageUp\Tests;
+namespace Lidai\ImageUp\Tests;
 
 use Illuminate\Support\Facades\Route;
 use Orchestra\Database\ConsoleServiceProvider;
-use QCod\ImageUp\Tests\Models\User;
-use QCod\ImageUp\ImageUpServiceProvider;
+use Lidai\ImageUp\Tests\Models\User;
+use Lidai\ImageUp\ImageUpServiceProvider;
 use Intervention\Image\ImageServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
@@ -24,7 +24,7 @@ abstract class TestCase extends OrchestraTestCase
         ]);
 
         // define some route to test auto upload
-        Route::group(['namespace' => 'QCod\ImageUp\Tests\Controllers'], function () {
+        Route::group(['namespace' => 'Lidai\ImageUp\Tests\Controllers'], function () {
             Route::post('test/users', 'UserController@store');
             Route::post('test/users-auto-upload-disabled', 'UserController@storeAutoUploadDisabled');
             Route::post('test/users-file', 'UserController@storeFileWithOption');

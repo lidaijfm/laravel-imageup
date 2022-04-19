@@ -1,10 +1,10 @@
 <?php
 
-namespace QCod\ImageUp\Tests;
+namespace Lidai\ImageUp\Tests;
 
-use QCod\ImageUp\HasFileUploads;
+use Lidai\ImageUp\HasFileUploads;
 use Illuminate\Http\UploadedFile;
-use QCod\ImageUp\Tests\Models\User;
+use Lidai\ImageUp\Tests\Models\User;
 use Illuminate\Support\Facades\Storage;
 
 class FileUpTest extends TestCase

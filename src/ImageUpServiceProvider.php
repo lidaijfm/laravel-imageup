@@ -1,6 +1,6 @@
 <?php
 
-namespace QCod\ImageUp;
+namespace Lidai\ImageUp;
 
 use Illuminate\Support\ServiceProvider;
 

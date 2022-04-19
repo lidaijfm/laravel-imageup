@@ -1,9 +1,9 @@
 <?php
 
-namespace QCod\ImageUp\Tests\Models;
+namespace Lidai\ImageUp\Tests\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use QCod\ImageUp\HasImageUploads;
+use Lidai\ImageUp\HasImageUploads;
 
 class User extends Model
 {

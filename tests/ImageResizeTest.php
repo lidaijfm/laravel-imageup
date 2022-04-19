@@ -1,9 +1,9 @@
 <?php
 
-namespace QCod\ImageUp\Tests;
+namespace Lidai\ImageUp\Tests;
 
-use QCod\ImageUp\HasImageUploads;
-use QCod\ImageUp\Tests\Models\User;
+use Lidai\ImageUp\HasImageUploads;
+use Lidai\ImageUp\Tests\Models\User;
 
 class ImageResizeTest extends TestCase
 {

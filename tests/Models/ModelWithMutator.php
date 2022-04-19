@@ -1,9 +1,9 @@
 <?php
 
-namespace QCod\ImageUp\Tests\Models;
+namespace Lidai\ImageUp\Tests\Models;
 
 use Illuminate\Foundation\Auth\User;
-use QCod\ImageUp\HasImageUploads;
+use Lidai\ImageUp\HasImageUploads;
 
 class ModelWithMutator extends User
 {

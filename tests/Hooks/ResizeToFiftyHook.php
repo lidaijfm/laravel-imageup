@@ -1,6 +1,6 @@
 <?php
 
-namespace QCod\ImageUp\Tests\Hooks;
+namespace Lidai\ImageUp\Tests\Hooks;
 
 class ResizeToFiftyHook
 {
