@@ -1,18 +1,13 @@
 ## Laravel ImageUp
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/Lidai/laravel-imageup.svg)](https://packagist.org/packages/Lidai/laravel-imageup)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/Lidai/laravel-imageup/master.svg)](https://travis-ci.org/Lidai/laravel-imageup)
-[![Total Downloads](https://img.shields.io/packagist/dt/Lidai/laravel-imageup.svg)](https://packagist.org/packages/Lidai/laravel-imageup)
-
-The `Lidai/laravel-imageup` is a trait which gives you auto upload, resize and crop for image feature with tons of customization.
+The `lidai/laravel-imageup` is a trait which gives you auto upload, resize and crop for image feature with tons of customization.
 
 ### Installation
 
 You can install the package via composer:
 
 ```bash
-$ composer require Lidai/laravel-imageup
+$ composer require lidai/laravel-imageup
 ```
 
 The package will automatically register itself. In case you need to manually register it you can by adding it in `config/app.php` providers array:
@@ -457,15 +452,13 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email saquibweb@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please email lidai@jfmedier.dk instead of using the issue tracker.
 
 ### Credits
 - [Mohd Saqueib Ansari](https://github.com/saqueib)
 - [Melek Rebai aka shadoWalker89](https://github.com/shadoWalker89)
 - [João Roberto P. Borges](https://github.com/joaorobertopb)
-
-### About Lidaie.in
-Lidaie.in (https://www.Lidaie.in) is blog by [Saqueib](https://github.com/saqueib) which covers All about Full Stack Web Development.
+- [Liam Aird](https://github.com/lidaijfm/laravel-imageup)
 
 ### License
 
